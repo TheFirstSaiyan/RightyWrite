@@ -1,0 +1,44 @@
+// let numbers={"0":[],"1":[],"2":[],"3":[],"4":[],"5":[],"6":[],"7":[],"8":[],"9":[]};,"k":[],"l":[],"m":[],"n":[],
+// "o":[],"p":[],
+// "q":[],"r":[],"s":[],"t":[],"u":[],"v":[],"w":[],"x":[],"y":[],"z":[]};
+// createButton('save').mousePressed(function(){
+//
+// 	let imag=get();
+// 	imag.resize(20,20);
+//
+//
+// 	for(let key in letters)
+// 	{
+// 		if(letters[key]==0)
+// 		{
+// imag.loadPixels();
+// 			for(let i=0;i<400;i++)
+// 			{
+// 			letters[key][i]=imag.pixels[i*4];
+// 			}
+// 			imag.updatePixels();
+// 			console.log(letters);
+// 			break;
+// 		}
+// 	}
+// 		background(0);
+// });
+
+// createButton('createJSON').mousePressed(function(){
+// 	save(numbers,'numdata.json');
+// });
+//let letters;
+
+// function mouseDragged(){
+// 	if(mouseIsPressed)
+// 	{
+// 		line(pmouseX,pmouseY,mouseX,mouseY);
+// 	}
+// }
+
+
+// 	for(let i=0;i<26;i++)
+// 	{
+// 	let chr = String.fromCharCode(97 + i);
+// 	console.log(chr);
+// }
